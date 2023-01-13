@@ -7,11 +7,36 @@
 
 import SwiftUI
 
+
 struct NewTrainingView: View {
+    
+    //Select Sport
+    @State private var sportIndex = 0
+
+
+
+    var sports = ["Vélo", "Tennis", "Football", "Basketball"]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form{
+            Section{
+                Picker(selection: $sportIndex, label: Text("Choisissez un sport")){
+                    ForEach(0 ..< sports.count){
+                        Text(self.sports[$0]).tag($0)
+                    }
+                }
+                
+                Picker(selection: $sportIndex, label: Text("Choisissez un sport")){
+                    ForEach(0 ..< sports.count){
+                        Text(self.sports[$0]).tag($0)
+                    }
+                }
+
+            }
+        }
+        .navigationBarTitle(Text("Nouvelle Activité"))
     }
 }
+
 
 struct NewTrainingView_Previews: PreviewProvider {
     static var previews: some View {

@@ -167,6 +167,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9923A8FA2971B651009C9607 /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				99B6DD112970395E00C98332 /* RunView.swift */,
+				99B6DD1529704A5B00C98332 /* MapsViewModel.swift */,
+				99B6DD1329703D0A00C98332 /* MapsView.swift */,
+			);
+			path = Run;
+			sourceTree = "<group>";
+		};
 		997FC584296F3150008A3D62 = {
 			isa = PBXGroup;
 			children = (
@@ -280,9 +290,7 @@
 		99C060A0296F519E00258BCE /* Training */ = {
 			isa = PBXGroup;
 			children = (
-				99B6DD112970395E00C98332 /* RunView.swift */,
-				99B6DD1329703D0A00C98332 /* MapsView.swift */,
-				99B6DD1529704A5B00C98332 /* MapsViewModel.swift */,
+				9923A8FA2971B651009C9607 /* Run */,
 				99C06098296F4EE200258BCE /* TrainingView.swift */,
 				99B6DD20297173AE00C98332 /* NewTrainingView.swift */,
 				99B6DD3229718A9300C98332 /* LocalNotification */,
