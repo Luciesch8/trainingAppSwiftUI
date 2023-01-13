@@ -25,6 +25,14 @@ struct TrainingView: View {
                     
                 })
                 
+                NavigationLink(destination: StopwatchView(), label: {Text("Chronometre")
+                    
+                })
+                
+                NavigationLink(destination: TimerView(), label: {Text("Minuteur")
+                    
+                })
+                
                 .navigationTitle("Entrainement")
                 
             }

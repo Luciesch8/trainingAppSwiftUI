@@ -13,8 +13,6 @@ struct NewTrainingView: View {
     //Select Sport
     @State private var sportIndex = 0
 
-
-
     var sports = ["Vélo", "Tennis", "Football", "Basketball"]
     var body: some View {
         Form{
@@ -24,13 +22,7 @@ struct NewTrainingView: View {
                         Text(self.sports[$0]).tag($0)
                     }
                 }
-                
-                Picker(selection: $sportIndex, label: Text("Choisissez un sport")){
-                    ForEach(0 ..< sports.count){
-                        Text(self.sports[$0]).tag($0)
-                    }
-                }
-
+                 
             }
         }
         .navigationBarTitle(Text("Nouvelle Activité"))

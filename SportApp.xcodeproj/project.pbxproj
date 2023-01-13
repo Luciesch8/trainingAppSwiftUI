@@ -39,6 +39,8 @@
 		99C060A9296F558700258BCE /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C060A8296F558700258BCE /* MealView.swift */; };
 		99C060AB296F5E6000258BCE /* LinkProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C060AA296F5E6000258BCE /* LinkProfileView.swift */; };
 		99C060AD296F614E00258BCE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C060AC296F614E00258BCE /* ProfileView.swift */; };
+		99C6902E2971FC7E0091DFAE /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6902D2971FC7E0091DFAE /* StopwatchView.swift */; };
+		99C690302971FC8A0091DFAE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6902F2971FC8A0091DFAE /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,8 @@
 		99C060A8296F558700258BCE /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		99C060AA296F5E6000258BCE /* LinkProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkProfileView.swift; sourceTree = "<group>"; };
 		99C060AC296F614E00258BCE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		99C6902D2971FC7E0091DFAE /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		99C6902F2971FC8A0091DFAE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		AB7F93249D2952464E36BA50 /* Pods_SportApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B842EC10DFCE55D7B898761C /* Pods-SportApp-SportAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportApp-SportAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SportApp-SportAppUITests/Pods-SportApp-SportAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C8B74565C814E7E02E2E5209 /* Pods-SportApp-SportAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportApp-SportAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SportApp-SportAppUITests/Pods-SportApp-SportAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -292,7 +296,9 @@
 			children = (
 				9923A8FA2971B651009C9607 /* Run */,
 				99C06098296F4EE200258BCE /* TrainingView.swift */,
+				99C6902D2971FC7E0091DFAE /* StopwatchView.swift */,
 				99B6DD20297173AE00C98332 /* NewTrainingView.swift */,
+				99C6902F2971FC8A0091DFAE /* TimerView.swift */,
 				99B6DD3229718A9300C98332 /* LocalNotification */,
 			);
 			path = Training;
@@ -574,10 +580,12 @@
 				99B6DD2B29717DFF00C98332 /* NotificationManager.swift in Sources */,
 				99B6DD1629704A5B00C98332 /* MapsViewModel.swift in Sources */,
 				99C06099296F4EE200258BCE /* TrainingView.swift in Sources */,
+				99C6902E2971FC7E0091DFAE /* StopwatchView.swift in Sources */,
 				99C060A7296F557000258BCE /* ActivityProgView.swift in Sources */,
 				99B6DD1429703D0A00C98332 /* MapsView.swift in Sources */,
 				9923A8F929719EDA009C9607 /* InfoOverlayView.swift in Sources */,
 				99C060A5296F552600258BCE /* ForYouView.swift in Sources */,
+				99C690302971FC8A0091DFAE /* TimerView.swift in Sources */,
 				99C06097296F4E5900258BCE /* HomeView.swift in Sources */,
 				997FC593296F3150008A3D62 /* ContentView.swift in Sources */,
 				99C060A9296F558700258BCE /* MealView.swift in Sources */,
@@ -759,6 +767,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -792,6 +801,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
